@@ -1,0 +1,143 @@
+#mywebsite section{
+    width: auto;
+    font-family:'Arial Narrow Bold', sans-serif;
+  }
+#landing{
+    background-image: linear-gradient(to bottom,rgba(24, 21, 21, 0),rgba(255,255,255,0.39)),url("/img/landing-img.jpg");
+    background-size: cover;
+    background-position: center;
+    width: auto;
+    height: 99vh;
+    display: grid;
+    place-content: center;
+    color: white;
+    text-shadow: 1px 2px black;
+}
+
+#landing h1{
+    padding-top: 25%;
+    margin: -2%;
+    font-size:50px;
+}
+
+#landing p{
+    padding-top:1%;
+    padding-bottom: 25%;
+    font-size: 20px;
+    text-align: center;
+}
+
+img{
+  align-items: center;
+  height: 150px;
+  width: 100%;
+  object-fit: cover;
+}
+
+#blog {
+  display: flex;
+  padding-top: 200px;
+  justify-content: center;  
+  font-weight: 500;
+} 
+
+#blog h2 {
+  font-size: 33px;
+  text-align: center;
+  margin-top: -100px;
+  position: absolute;
+  width: 100%;
+}
+
+h3{
+  padding-left: 25px;
+  font-size: 18px;
+}
+
+#blog p {
+padding-left: 20px; 
+padding-right: 40px;
+padding-bottom: 10px;
+font-size: 13px;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+ padding-left: 20px;
+ text-decoration: none;
+ color: gray;
+ font-size: 13px;
+}
+
+#blog a:hover{
+  color: rgb(137, 3, 144);
+}
+
+div {
+  border: 1px lightgrey;
+  border-style: solid;
+  border-radius: 7px; 
+  align-content:center;
+  display: inline-block;
+  box-shadow: 0px 0px  10px rgba(229, 209, 209, 0.698);
+  background-color: whitesmoke;
+  width: 300px;
+  height: 305px;
+  margin-left: 15px;
+  margin-bottom: 150px;
+  padding-bottom: 35px;
+}
+
+[title^="Featured Item"]{
+  background-color: black;
+  border-color: black;
+  color: white;
+}
+
+[title^="Featured Item"] a{
+  color:rgb(231, 81, 22)
+}
+
+  #services{
+    display: flex;
+    padding-top: 200px;
+    padding-bottom: 50px;
+    justify-content: center;
+    background-color: whitesmoke;
+    font-weight: 500;
+  }
+
+  #services h2{
+    font-size: 35px;
+    text-align: center;
+    margin-top: -100px;
+    position: absolute;
+    width: 100%;
+    padding-top: 30px;
+  }
+
+  ul, li{
+    display: flex;
+    margin: 17px;	
+    margin-top: 5px;
+  }
+
+  li{
+    background-color: white;
+    height: 80px;
+    width: 90px;
+    align-items: center;
+    font-size: 15px;
+    padding-left: 60px;
+    padding-right: 40px;
+  }
+
+  li:hover{
+    box-shadow: 0px 0px  10px rgba(163, 157, 157, 0.698);
+    cursor: pointer;
+  }
+
+ #servie1{
+    background-color: rgb(231, 81, 22);
+  }
+
